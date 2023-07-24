@@ -1,4 +1,4 @@
-#hero, #header, #jumbotron {
+#hero, #header {
     background-color: #91C8E4;
 }
 
@@ -18,13 +18,13 @@ h1.fw-bold {
     color: #F6F4EB;
 }
 
-
 .nav {
     --bs-nav-link-hover-color : #4682A9;
 }
 
 li, p{
     font-family: 'Noto Sans KR', sans-serif;
+    color: #749BC2;
 }
 
 .hero-p {
@@ -33,9 +33,46 @@ li, p{
 }
 
 .jumbotron-h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Roboto Mono', monospace;
     color: #4682A9;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.my-tmi {
+    background-color: #F6F4EB;
+    margin-top: 0;
+    padding-top: 200px;
+}
+
+.tmi-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #4682A9;
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.bg-body-tertiary {
+    background-color: #F6F4EB!important;
+}
+
+.tmi-content {
+    margin-bottom: 100px;
+}
+
+.tmi-img {
+    width: 300px;
+
+}
+
+.tmi-h2 {
+    color: #4682A9;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+}
+
+.tmi-text {
+    margin-left: 20px;
 }
