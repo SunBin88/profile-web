@@ -1,0 +1,41 @@
+#hero, #header, #jumbotron {
+    background-color: #91C8E4;
+}
+
+#hero {
+    height: 90vh;
+}
+
+h1.fw-bold {
+    color: #F6F4EB;
+    font-size: 8rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.nav-link {
+    color: #F6F4EB;
+}
+
+
+.nav {
+    --bs-nav-link-hover-color : #4682A9;
+}
+
+li, p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.hero-p {
+    color: #F6F4EB;
+    font-size: 2rem;
+}
+
+.jumbotron-h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #4682A9;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
