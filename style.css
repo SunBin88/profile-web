@@ -76,3 +76,8 @@ li, p{
 .tmi-text {
     margin-left: 20px;
 }
+
+.jumbotron-contact-me {
+    background-color: #F6F4EB;
+    padding-top: 200px;
+}
