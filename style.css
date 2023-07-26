@@ -81,3 +81,19 @@ li, p{
     background-color: #F6F4EB;
     padding-top: 200px;
 }
+
+.jumbotron-h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #4682A9;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: #F6F4EB;
+
+}
+
+.footer-nav {
+    color: #4682A9;
+    --bs-nav-link-hover-color : #749BC2;
+}
