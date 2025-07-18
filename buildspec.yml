@@ -6,10 +6,13 @@ phases:
       - echo "🔍 Checking if 'SunBin' exists in index.html..."
   build:
     commands:
+      - echo "Checking for 'SunBin' in index.html..."
       - |
         if grep -q "SunBin" index.html; then
-          echo "✅ SUCCESS: 'SunBin' found in index.html"
+          echo "✅ FOUND"
         else
-          echo "❌ ERROR: 'SunBin' not found in index.html"
+          echo "❌ NOT FOUND"
+          echo "===== FILE CONTENTS ====="
+          cat index.html
           exit 1
         fi
