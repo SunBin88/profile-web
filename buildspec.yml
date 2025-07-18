@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "🔍 Checking if 'SunBin' exists in index.html..."
+  build:
+    commands:
+      - |
+        if grep -q "SunBin" index.html; then
+          echo "✅ SUCCESS: 'SunBin' found in index.html"
+        else
+          echo "❌ ERROR: 'SunBin' not found in index.html"
+          exit 1
+        fi
